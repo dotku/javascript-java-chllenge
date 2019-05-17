@@ -1,6 +1,4 @@
-HTML  JS Result
-EDIT ON
- class Node {
+class Node {
     constructor(value, next, prev) {
         this.value = value;
         this.next = next;
@@ -8,7 +6,7 @@ EDIT ON
     }
 }
 
-class LinkedList {
+export class LinkedList {
     constructor() {
         this.head = null;
         this.tail = null;
